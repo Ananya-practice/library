@@ -1,0 +1,40 @@
+{
+    "users": [
+        {
+            "name": "ananya",
+            "id": 1,
+            "borrowed_books": [
+                {
+                    "title": "abc",
+                    "author": "xyz",
+                    "id": 1,
+                    "borrower": 1
+                }
+            ]
+        },
+        {
+            "name": "ananya2",
+            "id": 2,
+            "borrowed_books": []
+        },
+        {
+            "name": "ananya3",
+            "id": 3,
+            "borrowed_books": []
+        }
+    ],
+    "books": [
+        {
+            "title": "abc",
+            "author": "xyz",
+            "id": 1,
+            "borrower": 1
+        },
+        {
+            "title": "abc2",
+            "author": "xyz2",
+            "id": 2,
+            "borrower": null
+        }
+    ]
+}
